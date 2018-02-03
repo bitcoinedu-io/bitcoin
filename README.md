@@ -1,3 +1,10 @@
+Bitcoin Edu
+===========
+
+This is a fork of Bitcoin Core for educational purposes.
+
+
+
 Bitcoin Core integration/staging tree
 =====================================
 
