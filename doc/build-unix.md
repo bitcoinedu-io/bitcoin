@@ -15,17 +15,20 @@ for example, when specifying the path of the dependency:
 Here BDB_PREFIX must be an absolute path - it is defined using $(pwd) which ensures
 the usage of the absolute path.
 
-To Build
+To Build Bitcoin Edu
 ---------------------
 
 ```bash
 ./autogen.sh
-./configure
+./configure --with-incompatible-bdb
 make
 make install # optional
 ```
 
 This will build bitcoin-qt as well if the dependencies are met.
+
+--with-incompatible-bdb is default for Bitcoin Edu (libdb5.3)
+
 
 Dependencies
 ---------------------
