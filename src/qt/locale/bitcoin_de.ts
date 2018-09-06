@@ -1810,7 +1810,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>WARNUNG: Betrüger sind aktiv gewesen und erklären den Benutzern, hier Befehle einzugeben und ihre Brieftascheninhalte zu stehlen. Verwenden Sie diese Konsole nicht, ohne die Verzweigungen eines Befehls vollständig zu verstehen.</translation>
+        <translation>WARNUNG: Betrüger sind aktiv gewesen, die Benutzer auffordern, hier Befehle einzugeben, um Brieftascheninhalte zu stehlen. Verwenden Sie diese Konsole nicht, ohne die Auswirkungen eines Befehls vollständig zu verstehen.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1894,14 +1894,6 @@
     <message>
         <source>&amp;Request payment</source>
         <translation>&amp;Zahlung anfordern</translation>
-    </message>
-    <message>
-        <source>Bech32 addresses (BIP-173) are cheaper to spend from and offer better protection against typos. When unchecked a P2SH wrapped SegWit address will be created, compatible with older wallets.</source>
-        <translation>Bech32 Adressen (BIP-173) sind günstiger zum senden und besser geschützt gegen Tippfehler. Wenn nicht gewählt wird eine P2SH verpackte SegWit Adresse generiert, kompatibel mit älteren Wallets.</translation>
-    </message>
-    <message>
-        <source>Generate Bech32 address</source>
-        <translation>Erzeuge Bech32 Adresse</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
@@ -2154,7 +2146,7 @@
     </message>
     <message>
         <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
-        <translation>Mit Replace-By-Fee (BIP-125) kann die Transaktionsgebühr nach dem senden erhöht werden. Ohne dies wird eine höhere Gebühr empfoohlen um das Risiko einer hohen Transaktionszeit zu reduzieren.</translation>
+        <translation>Mit Replace-By-Fee (BIP-125) kann die Transaktionsgebühr nach dem Senden erhöht werden. Ohne dies wird eine höhere Gebühr empfohlen, um das Risiko einer hohen Transaktionszeit zu reduzieren.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -3888,10 +3880,6 @@
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Debugginginformationen ausgeben (Standard: %u, &lt;category&gt; anzugeben ist optional)</translation>
-    </message>
-    <message>
-        <source>Set maximum BIP141 block weight to this * 4. Deprecated, use blockmaxweight</source>
-        <translation>Setzen von maximalem BIP141 Blockgewicht von * 4. ist veraltet, benutze blockmaxweight</translation>
     </message>
     <message>
         <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
