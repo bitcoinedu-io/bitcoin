@@ -73,7 +73,7 @@ public:
 	// BIP65 is OP_CHECKLOCKTIMEVERIFY
 	// BIP66 is Strict DER signatures
         // CSVHheight, OP_CSV (BIP68, BIP112 and BIP113) becomes active.
-        consensus.BIP16Exception = uint256S();
+        consensus.BIP16Exception = uint256S("");
         consensus.BIP34Height = 100000000; // far in the future, v1 not rejected
         consensus.BIP34Hash = uint256();
         consensus.BIP65Height = 0; // available from start

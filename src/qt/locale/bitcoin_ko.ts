@@ -2202,7 +2202,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
-<<<<<<<< HEAD:src/qt/locale/bitcoin_ko.ts
         <translation>네이티브 세그윗 주소(Bech32 또는 BIP-173)는 거래 수수료를 줄여주고 오입력을 방지하지만 구버전 지갑은 이를 지원하지 않습니다. 체크하지 않으면 구버전 지갑과 호환되는 주소가 대신 생성됩니다.</translation>
     </message>
     <message>
@@ -2212,21 +2211,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Requested payments history</source>
         <translation>지불 요청 이력</translation>
-========
-        <translation>Bech32 주소 (BIP-173)는 더 적은 수수료와 오입금으로부터 방지해 줍니다. Bech32가 비활성화 되어있으면 P2SH 기반의 세그윗 주소가 대신 생성됩니다.</translation>
-    </message>
-    <message>
-        <source>Generate native segwit (Bech32) address</source>
-        <translation>Bech32 세그윗 주소 생성</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>지출기록 확인</translation>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation>지불 요청(&amp;R)</translation>
->>>>>>>> upstream/0.21:src/qt/locale/bitcoin_ko_KR.ts
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
@@ -3581,35 +3565,11 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
-<<<<<<<< HEAD:src/qt/locale/bitcoin_ko.ts
         <translation>특정 연결을 제공 할 수없고 어드맨이 나가는 연결을 찾을 수 없습니다.</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>%s 불러오기 오류! 주소 키는 모두 정확하게 로드되었으나 거래 데이터와 주소록 필드에서 누락이나 오류가 존재할 수 있습니다.</translation>
-========
-        <translation>특정 연결을 제공 할 수없고 addrman이 나가는 연결을 찾을 수 없습니다.</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s); -connect=0 disables automatic connections (the rules for this peer are the same as for -addnode)</source>
-        <translation>지정된 노드에만 연결하십시오. -connect = 0은 자동 연결을 비활성화합니다 (이 피어의 규칙은 -addnode의 규칙과 동일합니다)</translation>
-    </message>
-    <message>
-        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>시작시 모든 지갑 거래를 삭제하고 -rescan을 통하여 블록체인만 복구합니다.</translation>
-    </message>
-    <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>%s 불러오기 오류: 주소 키는 모두 정확하게 로드되었으나 거래 데이터와 주소록 필드에서 누락이나 오류가 존재할 수 있습니다.</translation>
-    </message>
-    <message>
-        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
-        <translation>카테고리에 대한 디버깅 정보를 제외하십시오. -debug = 1과 함께 사용하여 하나 이상의 지정된 범주를 제외한 모든 범주의 디버그 로그를 출력 할 수 있습니다.</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>지갑 거래가 바뀌면 명령을 실행합니다.(%s 안의 명령어가 TxID로 바뀝니다)</translation>
->>>>>>>> upstream/0.21:src/qt/locale/bitcoin_ko_KR.ts
     </message>
     <message>
         <source>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</source>
@@ -3628,17 +3588,8 @@ Go to File &gt; Open Wallet to load a wallet.
         <translation>에스큐엘라이트 데이터베이스 : 에스큐엘라이트 지갑 스키마 버전을 가져오는 실행문 준비에 실패하였습니다 : %s</translation>
     </message>
     <message>
-<<<<<<<< HEAD:src/qt/locale/bitcoin_ko.ts
         <source>SQLiteDatabase: Failed to prepare the statement to fetch the application id: %s</source>
         <translation>에스큐엘라이트 데이터베이스 : 응용 프로그램 ID를 가져오는 실행문 준비에 실패하였습니다 : %s</translation>
-========
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
-        <translation>DNS lookup를 통해 피어 주소에 대한 쿼리 보내기 (기본값: 1 -connect 예외)</translation>
-    </message>
-    <message>
-        <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
-        <translation>블록 생성시 거래가 포함되도록 최저 수수료율을 설정하십시오 (%s/kB 단위). (기본값: %s)</translation>
->>>>>>>> upstream/0.21:src/qt/locale/bitcoin_ko_KR.ts
     </message>
     <message>
         <source>SQLiteDatabase: Unknown sqlite wallet schema version %d. Only version %d is supported</source>
@@ -3655,10 +3606,6 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
         <translation>이것은 거스름돈이 현재 레벨의 더스트보다 적은 경우 버릴 수 있는 수수료입니다.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation>이것은 수수료 견적을 이용할 수 없을 때 지불 할 수 있는 거래 수수료입니다.</translation>
     </message>
     <message>
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
@@ -3757,10 +3704,6 @@ Go to File &gt; Open Wallet to load a wallet.
         <translation>데이터베이스를 검증 실패</translation>
     </message>
     <message>
-        <source>Failed to rescan the wallet during initialization</source>
-        <translation>지갑 스캔 오류</translation>
-    </message>
-    <message>
         <source>Importing...</source>
         <translation>불러오는 중...</translation>
     </message>
@@ -3841,17 +3784,8 @@ Go to File &gt; Open Wallet to load a wallet.
         <translation>블록 축소 모드는 -txindex와 호환되지 않습니다.</translation>
     </message>
     <message>
-<<<<<<<< HEAD:src/qt/locale/bitcoin_ko.ts
         <source>Replaying blocks...</source>
         <translation>블록 재생 중...</translation>
-========
-        <source>Send transactions with full-RBF opt-in enabled (RPC only, default: %u)</source>
-        <translation>full-RBF opt-in이 활성화 된 거래을 전송합니다. (기본값: %u)</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>데이터베이스 케시 크기를 메가바이트로 설정(%d 부터 %d, 기본값: %d)</translation>
->>>>>>>> upstream/0.21:src/qt/locale/bitcoin_ko_KR.ts
     </message>
     <message>
         <source>Rewinding blocks...</source>
@@ -4016,18 +3950,6 @@ Go to File &gt; Open Wallet to load a wallet.
 </translation>
     </message>
     <message>
-        <source>Specified -walletdir "%s" does not exist</source>
-        <translation>애러: 지정한 지갑 폴더 "%s"은 존재하지 않습니다.</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" is a relative path</source>
-        <translation>애러: 지정한 지갑 폴더 "%s"은 상대 경로입니다.</translation>
-    </message>
-    <message>
-        <source>Specified -walletdir "%s" is not a directory</source>
-        <translation>애러: 지정한 지갑 폴더 "%s"은 디렉토리가 아닙니다.</translation>
-    </message>
-    <message>
         <source>The transaction amount is too small to pay the fee</source>
         <translation>거래액이 수수료를 지불하기엔 너무 작습니다</translation>
     </message>
@@ -4069,71 +3991,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-<<<<<<<< HEAD:src/qt/locale/bitcoin_ko.ts
         <translation>-maxtxfee 값이 너무 큽니다!  하나의 거래에 너무 큰 수수료가 지불 됩니다.</translation>
-========
-        <translation>-maxtxfee값이 너무 큽니다!  하나의 거래에 너무 큰 수수료가 지불 됩니다.</translation>
-    </message>
-    <message>
-        <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
-        <translation>주어진 주소에 바인드하여 JSON-RPC 연결을 기다립니다. 이 옵션은 -rpcallowip도 전달되지 않으면 무시됩니다. 포트는 옵션이며 -rpcport를 대체합니다. IPv6의 경우 [host]:port 표기법을 사용하십시오. 이 옵션은 여러 번 지정 할 수 있습니다 (기본값 : 127.0.0.1 및 ::1 즉, localhost 또는 -rpcallowip이 지정되면 0.0.0.0 및 모든 주소).</translation>
-    </message>
-    <message>
-        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>메모리 풀에 있는 거래 기록을 &lt;n&gt;시간 후 부터는 유지하지 않기 (기본값: %u)</translation>
-    </message>
-    <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>릴레이 및 마이닝 거래의 sigop 당 동등한 바이트 (기본값: %u)</translation>
-    </message>
-    <message>
-        <source>Error loading %s: You can't enable HD on an already existing non-HD wallet</source>
-        <translation>%s 불러오기 오류: 비-HD 지갑이 존재하는 상태에서 HD 지갑을 활성화 할 수 없습니다</translation>
-    </message>
-    <message>
-        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
-        <translation>지갑 %s 로딩 에러, -wallet 매개변수는 파일 이름만 지정 해야 합니다 (경로가 아님).</translation>
-    </message>
-    <message>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>해당 금액(%s/kB) 보다 적은 수수료는 수수료 면제로 간주됩니다.(기본값: %s)</translation>
-    </message>
-    <message>
-        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>피어들이 로컬 중계 정책을 위반하더라도 화이트 리스트에 포함된 피어인경우 강제로 중계하기 (기본값: %d)</translation>
-    </message>
-    <message>
-        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>-checkblocks을 통한 블록 점검 (0-4, 기본값: %u)</translation>
-    </message>
-    <message>
-        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>getrawtransaction를 RPC CALL를 통해 완전한 거래 인덱스 유지 (기본값: %u)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>이상행동을 하는 네트워크 참여자들을 다시 연결시키는데 걸리는 시간 (기본값: %u)</translation>
-    </message>
-    <message>
-        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>디버그 정보 출력 (기본값: %u, &lt;category&gt; 제공은 선택입니다)</translation>
-    </message>
-    <message>
-        <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
-        <translation>non-segwit(0) 또는 segwit(1) (기본값: %d) 가 아닌 자세한 정보 표시 모드로 반환 된 원시 거래 또는 블록 hex의 직렬화를 설정합니다.</translation>
-    </message>
-    <message>
-        <source>Specify directory to hold wallets (default: &lt;datadir&gt;/wallets if it exists, otherwise &lt;datadir&gt;)</source>
-        <translation>지갑 파일을 저장하기 위한 폴더를 설정하세요 (기본값: &lt;datadir&gt;/wallets 또는  &lt;datadir&gt;)</translation>
-    </message>
-    <message>
-        <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
-        <translation>디버그 로그 파일의 저장 위치를 지정하세요: 이것은 별도의 위치나 블록체인 저장위치와 동일할 수 있습니다 (기본값: %s)</translation>
-    </message>
-    <message>
-        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>블룸필터를 통해 블록과 거래 필터링 지원 (기본값: %u)</translation>
->>>>>>>> upstream/0.21:src/qt/locale/bitcoin_ko_KR.ts
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>

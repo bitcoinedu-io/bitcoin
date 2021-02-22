@@ -1185,13 +1185,10 @@ Assinar só é possível com endereços do tipo "legado".</translation>
         <translation>Endereço de IP do proxy (exemplo, IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-<<<<<<<< HEAD:src/qt/locale/bitcoin_pt.ts
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
         <translation>Mostra se o padrão fornecido SOCKS5 proxy, está a ser utilizado para alcançar utilizadores participantes através deste tipo de rede.</translation>
     </message>
     <message>
-========
->>>>>>>> upstream/0.21:src/qt/locale/bitcoin_pt_PT.ts
         <source>Hide the icon from the system tray.</source>
         <translation>Esconder o ícone da barra de ferramentas.</translation>
     </message>
@@ -1211,10 +1208,6 @@ Assinar só é possível com endereços do tipo "legado".</translation>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
         <translation>Abrir o ficheiro de configuração %1 da pasta aberta.</translation>
-    </message>
-    <message>
-        <source>Open the %1 configuration file from the working directory.</source>
-        <translation>Abrir o ficheiro de configuração %1 do diretório aberto.</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
