@@ -78,7 +78,7 @@ public:
         consensus.BIP34Hash = uint256();
         consensus.BIP65Height = 0; // available from start
         consensus.BIP66Height = 0; // strict from start
-        consensus.CSVHeight = 0; // available from start
+        consensus.CSVHeight = 1; // available from start (but must not be 0)
         consensus.SegwitHeight = 0; // available from start
         consensus.MinBIP9WarningHeight = 0; // warn from start
         consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
